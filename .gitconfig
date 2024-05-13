@@ -1,0 +1,7 @@
+[user]
+	name = Neesh
+	email = avaneeshsamsi@gmail.com
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
