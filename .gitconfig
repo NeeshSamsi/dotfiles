@@ -2,6 +2,20 @@
 	name = Neesh
 	email = avaneeshsamsi@gmail.com
 [core]
-	editor = nano
+	editor = code --wait
 [init]
 	defaultBranch = main
+[alias]
+	st = status -s
+	sta = status
+	conf = config --global --edit
+	ci = commit
+	co = checkout
+	cod = checkout .
+	rh = reset HEAD
+	aa = add -A
+	cdf = clean -df
+	br = branch
+	bra = branch -a
+	pr = pull --rebase
+	amend = commit -a --amend --no-edit
